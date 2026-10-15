@@ -1,0 +1,13 @@
+{
+  "name": "simpleit-blog-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Runnable teaching examples for Simple IT Automation articles",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test examples/a-dry-run-is-a-contract-across-every-adapter/provision.test.mjs",
+    "test:load": "node examples/load-testing-is-an-investigation/run.mjs"
+  }
+}
